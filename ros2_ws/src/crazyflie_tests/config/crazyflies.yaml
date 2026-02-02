@@ -2,7 +2,7 @@
 fileversion: 3
 
 robots:
-  cf231:
+  cf1:
     enabled: true
     uri: radio://0/80/2M/E7E7E7E7E7
     initial_position: [0.0, 0.0, 0.0]
@@ -18,8 +18,8 @@ robots:
     #       vars: ["acc.x", "acc.y"]
     # reference_frame: "odom_cf231" # use a custom reference frame if no global coordinate system is available
 
-  cf5:
-    enabled: false
+  cf2:
+    enabled: true
     uri: radio://0/80/2M/E7E7E7E705
     initial_position: [0.0, -0.5, 0.0]
     type: cf21  # see robot_types

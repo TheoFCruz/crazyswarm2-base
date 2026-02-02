@@ -10,9 +10,14 @@ ROS2_WS=${ROOT_DIR}/ros2_ws
 echo "==> Cloning repo"
 
 mkdir -p ${ROS2_WS}/src
-git -C ${ROS2_WS}/src \
-  clone --recursive \
-  https://github.com/IMRCLab/crazyswarm2
+
+if [ ! -d "${ROS2_WS}/src/crazyswarm2" ]; then
+  git -C ${ROS2_WS}/src \
+    clone --recursive \
+    https://github.com/IMRCLab/crazyswarm2
+else
+  echo "==> Crazyswarm2 directory already exists, skipping clone"
+fi
 
 # Building Crazyswarm2
 echo "==> Building Crazyswarm2"
