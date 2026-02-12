@@ -28,7 +28,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'collision_avoidance = crazyflie_tests.collision_avoidance:main'
+            'collision_avoidance = crazyflie_tests.collision_avoidance:main',
+            'hover_to_fullstate = crazyflie_tests.hover_to_fullstate:main'
         ],
     },
 )

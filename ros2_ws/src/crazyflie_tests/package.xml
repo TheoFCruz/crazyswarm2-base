@@ -3,11 +3,14 @@
 <package format="3">
   <name>crazyflie_tests</name>
   <version>0.0.0</version>
-  <description>Tests for trajectory tracking and collision avoidance in crazyswarm2 and crazyflie</description>
+  <description>Package for tests with crazyswarm2 and crazyflie</description>
   <maintainer email="theofonsecacruz@gmail.com">theofc</maintainer>
   <license>MIT</license>
 
+  <depend>rclpy</depend>
   <depend>crazyflie_py</depend>
+  <depend>crazyflie_interfaces</depend>
+  <depend>geometry_msgs</depend>
 
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
