@@ -5,7 +5,7 @@ from launch import LaunchDescription
 from launch.actions import IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
-package_name = 'crazyflie_tests'
+package_name = 'crazyswarm_package'
 
 def generate_launch_description():
 

@@ -21,7 +21,7 @@ RUN apt-get install -y \
     tmux
 
 # Crazyswarm2 ros2 image for development
-FROM ros2-base AS crazyswarm-tests
+FROM ros2-base AS crazyswarm2-base
 RUN apt-get update && apt-get install -y \
     libboost-program-options-dev \
     swig \
