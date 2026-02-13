@@ -31,5 +31,8 @@ colcon build \
   --symlink-install \
   --cmake-args -DCMAKE_BUILD_TYPE=Release
 
+source ${ROS2_WS}/install/setup.bash
+echo "source ${ROS2_WS}/install/setup.bash" >> ${HOME}/.bashrc 
+
 echo "==> Setup completed successfully ✅"
 

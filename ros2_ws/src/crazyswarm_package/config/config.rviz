@@ -56,8 +56,6 @@ Visualization Manager:
         All Enabled: true
         cf1:
           Value: true
-        cf2:
-          Value: true
         world:
           Value: true
       Marker Scale: 1
@@ -68,8 +66,6 @@ Visualization Manager:
       Tree:
         world:
           cf1:
-            {}
-          cf2:
             {}
       Update Interval: 0
       Value: true
@@ -100,37 +96,6 @@ Visualization Manager:
         Inertia: false
         Mass: false
       Name: CF1
-      TF Prefix: ""
-      Update Interval: 0
-      Value: true
-      Visual Enabled: true
-    - Alpha: 1
-      Class: rviz_default_plugins/RobotModel
-      Collision Enabled: false
-      Description File: ""
-      Description Source: Topic
-      Description Topic:
-        Depth: 5
-        Durability Policy: Volatile
-        History Policy: Keep Last
-        Reliability Policy: Reliable
-        Value: /cf2/robot_description
-      Enabled: true
-      Links:
-        All Links Enabled: true
-        Expand Joint Details: false
-        Expand Link Details: false
-        Expand Tree: false
-        Link Tree Style: Links in Alphabetic Order
-        cf2:
-          Alpha: 1
-          Show Axes: false
-          Show Trail: false
-          Value: true
-      Mass Properties:
-        Inertia: false
-        Mass: false
-      Name: CF2
       TF Prefix: ""
       Update Interval: 0
       Value: true
@@ -181,25 +146,25 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz_default_plugins/Orbit
-      Distance: 3.1647839546203613
+      Distance: 1.954440712928772
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
         Swap Stereo Eyes: false
         Value: false
       Focal Point:
-        X: -0.028163839131593704
-        Y: -0.049007341265678406
-        Z: -0.025782346725463867
+        X: 0.058298319578170776
+        Y: 0.1430046707391739
+        Z: -0.02370140142738819
       Focal Shape Fixed Size: true
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.4847976565361023
+      Pitch: 0.47479766607284546
       Target Frame: <Fixed Frame>
       Value: Orbit (rviz)
-      Yaw: 2.9185757637023926
+      Yaw: 2.7235724925994873
     Saved: ~
 Window Geometry:
   Displays:
