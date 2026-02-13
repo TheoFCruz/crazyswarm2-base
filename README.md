@@ -17,23 +17,23 @@ Make sure the following tools are installed:
 
 First, clone the repository
 ```
-$ git clone https://github.com/TheoFCruz/crazyswarm2-base.git
+git clone https://github.com/TheoFCruz/crazyswarm2-base.git
 ```
 
 Build the docker image. This step may take some time.
 ```
-$ docker compose build
+docker compose build
 ```
 
 Launch the container.
 ```
-$ docker compose up -d
+docker compose up -d
 ```
 
 Enter the container and run the `setup.sh` provided script.
 ```
-$ docker exec -it crazyswarm2-base bash
-$ bash ./setup.sh
+docker exec -it crazyswarm2-base bash
+bash ./setup.sh
 ```
 
 ## Basic Usage
