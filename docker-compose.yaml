@@ -6,6 +6,7 @@ services:
     container_name: crazyswarm2-base
     environment:
       - DISPLAY=${DISPLAY}
+      - FASTDDS_BUILTIN_TRANSPORTS=UDPv4
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
       - ./ros2_ws:/root/ros2_ws
@@ -13,6 +14,7 @@ services:
       - /dev/input:/dev/input
       - /dev/dri:/dev/dri
     network_mode: "host"
+    ipc: host
     # deploy:
     #   resources:
     #     reservations:
