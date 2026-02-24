@@ -3,16 +3,16 @@
     # one of "optitrack", "optitrack_closed_source", "vicon", "qualisys", "nokov", "vrpn", "motionanalysis"
     type: "optitrack"
     # Specify the hostname or IP of the computer running the motion capture software
-    hostname: "141.23.110.143"
+    hostname: "192.168.2.162"
 
     topics:
-      frame_id: "mocap"
+      frame_id: "world"
       poses:
         qos:
           mode: "sensor"
           deadline: 100.0 # Hz
       tf:
-        child_frame_id: "{}_mocap"
+        child_frame_id: "{}"
 
     marker_configurations:
       default: # for standard Crazyflie
